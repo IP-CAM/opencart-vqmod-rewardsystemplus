@@ -16,4 +16,8 @@ You can send your pull requests to improve this tool for free for all people aro
 
 ### Donations
 You can send me a donation for me on my paypal:
-paypal.me/aleoreina
+[Donate to Angel](https://paypal.me/aleoreina "Donate to Angel")
+
+## License
+You can read file LICENSE to see in full details about license.
+Our name and type of license is:  GNU General Public License v3.0
