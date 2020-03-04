@@ -4,6 +4,19 @@
 	<version>v2.0</version>
 	<code>Reward System Plus</code>
 	<author>Angel Reina - (@aleoreina)</author>
+
+    <file name="admin/view/template/catalog/product_form.tpl">
+        <operation info="Hiding + and - Select">
+            <search position="replace">[points_prefix]" class="form-control"</search>
+            <add>[points_prefix]" class="form-control" style="display:none;"</add>
+        </operation>
+    </file>
+   <file name="admin/language/en-gb/catalog/product.php">
+        <operation info="Fixing lang from points to Reward Points">
+            <search position="replace">$_['entry_option_points']    = 'Points';</search>
+            <add>$_['entry_option_points']    = 'Reward Points';</add>
+        </operation>
+    </file>
     <file name="catalog/controller/onepagecheckout/cart.php">
         <operation info="Replacing onepagecheckout checkout page to show the properly in my cart the reward points with option">
             <search position="before">foreach ($product['option'] as $option) {</search>
@@ -35,7 +48,6 @@
             </add>
         </operation>
     </file>
-
     <file name="catalog/model/checkout/order.php">
         <operation info="Replacing order model to show the properly in my cart the reward points with option when pay">
             <search position="before" index="1">return $order_id;</search>
@@ -48,7 +60,4 @@
             </add>
         </operation>
     </file>
-
-	
-
 </modification> 
