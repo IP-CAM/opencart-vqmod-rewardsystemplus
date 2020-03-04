@@ -5,6 +5,10 @@ VQMOD Scripting to fix some issues of rewards points system on OpenCart 2.3.X
 - Fix Calculation of Rewards points now consider Options items for products (It consider qty of products also.)
 - Once Checkout, When a order is created. Customer get his rewards points for full
 
+### Requirements
+- OpenCart 2.3.X
+- One Page Checkout (Optional)
+
 ### Installation
 `Copy rewardsystemplus.xml in your root opencart store /vqmod/xqml and done.`
 
