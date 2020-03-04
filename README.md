@@ -19,5 +19,5 @@ You can send me a donation for me on my paypal:
 [Donate to Angel](https://paypal.me/aleoreina "Donate to Angel")
 
 ## License
-You can read file LICENSE to see in full details about license.
-Our name and type of license is:  GNU General Public License v3.0
+**GNU General Public License v3.0**
+Check file: LICENSE
