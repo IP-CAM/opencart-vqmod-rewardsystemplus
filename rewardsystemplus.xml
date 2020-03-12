@@ -4,7 +4,12 @@
 	<version>v2.0</version>
 	<code>Reward System Plus</code>
 	<author>Angel Reina - (@aleoreina)</author>
-
+    <file name="catalog/controller/account/order.php">
+        <operation info="Fixing order show complete product name">
+            <search position="replace">'value' => (utf8_strlen($value) > 20 ? utf8_substr($value, 0, 20) . '..' : $value)</search>
+            <add>'value' => $value</add>
+        </operation>
+    </file>
     <file name="admin/view/template/catalog/product_form.tpl">
         <operation info="Hiding + and - Select">
             <search position="replace">[points_prefix]" class="form-control"</search>
@@ -61,3 +66,4 @@
         </operation>
     </file>
 </modification> 
+
